@@ -44,7 +44,7 @@ schedule.every().day.at("08:00").do(Breakfast)
 schedule.every().day.at("01:00").do(Lunch)
 schedule.every().day.at("20:00").do(Dinner)
 schedule.every().day.at("07:00").do(Yoga)
-schedule.every().day.at("18:16").do(bedtime)
+schedule.every().day.at("22:00").do(bedtime)
 schedule.every(1).minutes.do(internacademy)
 while True:
     schedule.run_pending()
